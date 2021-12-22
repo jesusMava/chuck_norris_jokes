@@ -1,0 +1,55 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.chucknorris.io/jokes/random
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - api.chucknorris.io
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 21 Dec 2021 23:44:08 GMT
+      Content-Type:
+      - application/json;charset=UTF-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Via:
+      - 1.1 vegur
+      Cf-Cache-Status:
+      - DYNAMIC
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=AZ1g1AFQD2wReDYDhU9cKlGWQl9FW2giRqzg9JaQa7etkt5Uxc3G51%2F%2BxAFtxIALdGVpkry2DymHugPm2lsqUOGnwd2kYq4vhSAa34Z8GyMhoDWm5vrKzjoic2d55hEdXULphFM%3D"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 6c14fa01de9cb3be-IAH
+      Alt-Svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
+        ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: '{"categories":[],"created_at":"2020-01-05 13:42:26.194739","icon_url":"https://assets.chucknorris.host/img/avatar/chuck-norris.png","id":"iZuq8uvzRsmbhPv8x6VLoA","updated_at":"2020-01-05
+        13:42:26.194739","url":"https://api.chucknorris.io/jokes/iZuq8uvzRsmbhPv8x6VLoA","value":"Chuck
+        Norris is in Hawaii researching a role as an&#65279; old, beardless man, so
+        he can teach Daniel Day-Lewis to lie the fuck down once in a while."}'
+  recorded_at: Tue, 21 Dec 2021 23:44:08 GMT
+recorded_with: VCR 6.0.0

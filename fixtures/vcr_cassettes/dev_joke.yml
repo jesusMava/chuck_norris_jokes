@@ -1,0 +1,831 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.chucknorris.io/jokes/random?category=animal
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - api.chucknorris.io
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 21 Dec 2021 23:05:06 GMT
+      Content-Type:
+      - application/json;charset=UTF-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Via:
+      - 1.1 vegur
+      Cf-Cache-Status:
+      - DYNAMIC
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=pCpjipc9hbQ%2BVY7jCzHxHm21Nx5HwBbC34muuuBifIf6vRhih7bU0ILEm0QTAifZNakolxTa55Xyv6XFa56WXtHV80Xeydse7bMiyrFTTMmWfUAcBePJwOrVFoJk%2F8NKkiixqt8%3D"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 6c14c0d69d59b3b8-IAH
+      Alt-Svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
+        ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: '{"categories":["animal"],"created_at":"2020-01-05 13:42:19.576875","icon_url":"https://assets.chucknorris.host/img/avatar/chuck-norris.png","id":"bmom6jqftpqgokh8adtolw","updated_at":"2020-01-05
+        13:42:19.576875","url":"https://api.chucknorris.io/jokes/bmom6jqftpqgokh8adtolw","value":"Chuck
+        Norris once rode a nine foot grizzly bear through an automatic car wash, instead
+        of taking a shower."}'
+  recorded_at: Tue, 21 Dec 2021 23:05:06 GMT
+- request:
+    method: get
+    uri: https://api.chucknorris.io/jokes/random?category=career
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - api.chucknorris.io
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 21 Dec 2021 23:05:07 GMT
+      Content-Type:
+      - application/json;charset=UTF-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Via:
+      - 1.1 vegur
+      Cf-Cache-Status:
+      - DYNAMIC
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=vTGGV7S3i5fugWzePo%2BYlIhe7QUexTcpO6w6ucsDwLJH2GuuAVCJrXDpnABeahFTx%2FquramiqT%2FwMYRANdxiEt%2FMW9aSY6rX3fKt7DSij5TOLZzONoulWPe%2BvTZXwZQ%2FKhSU05w%3D"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 6c14c0db2e88b3e2-IAH
+      Alt-Svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
+        ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: '{"categories":["career"],"created_at":"2020-01-05 13:42:18.823766","icon_url":"https://assets.chucknorris.host/img/avatar/chuck-norris.png","id":"cwguxfhptcuagndjdt1hya","updated_at":"2020-01-05
+        13:42:18.823766","url":"https://api.chucknorris.io/jokes/cwguxfhptcuagndjdt1hya","value":"In
+        the beginning there was nothing...then Chuck Norris Roundhouse kicked that
+        nothing in the face and said \"Get a job\". That is the story of the universe."}'
+  recorded_at: Tue, 21 Dec 2021 23:05:07 GMT
+- request:
+    method: get
+    uri: https://api.chucknorris.io/jokes/random?category=celebrity
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - api.chucknorris.io
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 21 Dec 2021 23:05:08 GMT
+      Content-Type:
+      - application/json;charset=UTF-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Via:
+      - 1.1 vegur
+      Cf-Cache-Status:
+      - DYNAMIC
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=mjOphrvQtXulRKNTiTU2Z9kUxeTs7KBHl%2BunRIFmYDaHx2WFo%2Bhjh3XVlZjvwF5o7wX7gWQrxUY97em1CU7gRqlxfHaOpWHrg88UIZGoFm2xS%2B0HQ7jte7rFiri3yTpxPk0IwV4%3D"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 6c14c0dfb8e1fed6-IAH
+      Alt-Svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
+        ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: '{"categories":["celebrity"],"created_at":"2020-01-05 13:42:19.324003","icon_url":"https://assets.chucknorris.host/img/avatar/chuck-norris.png","id":"hxdulftcswqglp1-qe3nfw","updated_at":"2020-01-05
+        13:42:19.324003","url":"https://api.chucknorris.io/jokes/hxdulftcswqglp1-qe3nfw","value":"Wilt
+        Chamberlain claims to have slept with more than 20,000 women in his lifetime.
+        Chuck Norris calls this \"a slow Tuesday.\""}'
+  recorded_at: Tue, 21 Dec 2021 23:05:08 GMT
+- request:
+    method: get
+    uri: https://api.chucknorris.io/jokes/random?category=dev
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - api.chucknorris.io
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 21 Dec 2021 23:05:08 GMT
+      Content-Type:
+      - application/json;charset=UTF-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Via:
+      - 1.1 vegur
+      Cf-Cache-Status:
+      - DYNAMIC
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=OGnFT99URaGbWQ0vcqmRD%2B%2BKSnJV6l%2B3g%2Bpgp4Zt2dEYTj8nHI8GYsVaNE%2FltR%2BL4oUWY6XPkUZ47hxNBUfJO6jIpeMtYJKrO6%2BvzxV3KDb2%2BcvwPqEGx6gNz701E6R3Hq1DjZc%3D"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 6c14c0e45e8afed2-IAH
+      Alt-Svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
+        ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: '{"categories":["dev"],"created_at":"2020-01-05 13:42:19.576875","icon_url":"https://assets.chucknorris.host/img/avatar/chuck-norris.png","id":"wlmypgkkrlgjguoyhc2e0q","updated_at":"2020-01-05
+        13:42:19.576875","url":"https://api.chucknorris.io/jokes/wlmypgkkrlgjguoyhc2e0q","value":"Chuck
+        Norris doesn''t go on the internet, he has every internet site stored in his
+        memory. He refreshes webpages by blinking."}'
+  recorded_at: Tue, 21 Dec 2021 23:05:08 GMT
+- request:
+    method: get
+    uri: https://api.chucknorris.io/jokes/random?category=explicit
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - api.chucknorris.io
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 21 Dec 2021 23:05:09 GMT
+      Content-Type:
+      - application/json;charset=UTF-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Via:
+      - 1.1 vegur
+      Cf-Cache-Status:
+      - DYNAMIC
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=%2BgroTvVqR2YX7%2Fm0YMdasedYF1ZA1Gddgmcfp4qEn3lfV3MUr0J%2Fb5hcLvC38RVPPSa17JdG%2BqgHtGHqGApUabf4prst2LI%2Ba%2FzpQoWXV%2BfLedHus%2FK3EN9jf96ytEjadaHO6vQ%3D"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 6c14c0e698a1fef6-IAH
+      Alt-Svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
+        ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: '{"categories":["explicit"],"created_at":"2020-01-05 13:42:28.143137","icon_url":"https://assets.chucknorris.host/img/avatar/chuck-norris.png","id":"4gVGjVd9RSipzaD-Tx41FQ","updated_at":"2020-01-05
+        13:42:28.143137","url":"https://api.chucknorris.io/jokes/4gVGjVd9RSipzaD-Tx41FQ","value":"When
+        Chuck Norris toured Britain, it inspired the Sex Pistols to write \"Anarchy
+        In The UK\"."}'
+  recorded_at: Tue, 21 Dec 2021 23:05:09 GMT
+- request:
+    method: get
+    uri: https://api.chucknorris.io/jokes/random?category=fashion
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - api.chucknorris.io
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 21 Dec 2021 23:05:09 GMT
+      Content-Type:
+      - application/json;charset=UTF-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Via:
+      - 1.1 vegur
+      Cf-Cache-Status:
+      - DYNAMIC
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=Gy7t%2F2AwXlHwjlWQTkr%2BFG8l%2BgOZXgPVo9fVHXHI64SLVqNktgpwBOIc%2FSyOhhkCYbLhmvlxXVYytS0usXnrgyz%2BO9IyurkSCLrBcdHClWUyWAm9g7MotVBe9T%2FeNTDrJhkqZT4%3D"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 6c14c0e8ee84fee6-IAH
+      Alt-Svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
+        ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: '{"categories":["fashion"],"created_at":"2020-01-05 13:42:18.823766","icon_url":"https://assets.chucknorris.host/img/avatar/chuck-norris.png","id":"0wdewlp2tz-mt_upesvrjw","updated_at":"2020-01-05
+        13:42:18.823766","url":"https://api.chucknorris.io/jokes/0wdewlp2tz-mt_upesvrjw","value":"Chuck
+        Norris does not follow fashion trends, they follow him. But then he turns
+        around and kicks their ass. Nobody follows Chuck Norris."}'
+  recorded_at: Tue, 21 Dec 2021 23:05:09 GMT
+- request:
+    method: get
+    uri: https://api.chucknorris.io/jokes/random?category=food
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - api.chucknorris.io
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 21 Dec 2021 23:05:09 GMT
+      Content-Type:
+      - application/json;charset=UTF-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Via:
+      - 1.1 vegur
+      Cf-Cache-Status:
+      - DYNAMIC
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=%2FHcNj7sUwiYaVVCeE50nXc0%2F2lxsd34b%2BmXEOr7GIYzRVpqsOShFEEsTaFx8TXj%2Fk%2BehwsTdLAaD7TkikwDRs9NEDycR9uJx0etW2wR%2BcAa5l8xVZwLUl4pQcTkTjwKqB2mn6MA%3D"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 6c14c0eb4927fee6-IAH
+      Alt-Svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
+        ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: '{"categories":["food"],"created_at":"2020-01-05 13:42:30.177068","icon_url":"https://assets.chucknorris.host/img/avatar/chuck-norris.png","id":"Tuk9RfV7T92nPhH-sxPCfQ","updated_at":"2020-01-05
+        13:42:30.177068","url":"https://api.chucknorris.io/jokes/Tuk9RfV7T92nPhH-sxPCfQ","value":"Chuck
+        Norris double batters his chicken and fish in cocaine & gorilla milk/egg wash."}'
+  recorded_at: Tue, 21 Dec 2021 23:05:09 GMT
+- request:
+    method: get
+    uri: https://api.chucknorris.io/jokes/random?category=history
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - api.chucknorris.io
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 21 Dec 2021 23:05:10 GMT
+      Content-Type:
+      - application/json;charset=UTF-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Via:
+      - 1.1 vegur
+      Cf-Cache-Status:
+      - DYNAMIC
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=BjZgsWIikLKragEKUxlK8BUyl9FtBdbwhR7uO1ZrH748tzgI6WxC7ixZwPNQjCfjSu2SMWkT5zxWGywv9EADS4Z9JWHngKE0dDC7gYjy8MboINuDm5OmdbAjHnGcK%2FyH2lk3fhI%3D"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 6c14c0edbee8b3a0-IAH
+      Alt-Svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
+        ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: '{"categories":["history"],"created_at":"2020-01-05 13:42:19.576875","icon_url":"https://assets.chucknorris.host/img/avatar/chuck-norris.png","id":"vxmg5zgusq6ra35ns4e5sw","updated_at":"2020-01-05
+        13:42:19.576875","url":"https://api.chucknorris.io/jokes/vxmg5zgusq6ra35ns4e5sw","value":"After
+        returning from World War 2 unscrathed, Bob Dole was congratulated by Chuck
+        Norris with a handshake. The rest is history."}'
+  recorded_at: Tue, 21 Dec 2021 23:05:10 GMT
+- request:
+    method: get
+    uri: https://api.chucknorris.io/jokes/random?category=money
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - api.chucknorris.io
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 21 Dec 2021 23:05:10 GMT
+      Content-Type:
+      - application/json;charset=UTF-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Via:
+      - 1.1 vegur
+      Cf-Cache-Status:
+      - DYNAMIC
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=hfgzXpLjpcJXKVNVt0xwt8S4i9GdI97X0dESu2rUC3JUc1y2XBCngxVS3IMfs9xkBh2T0jdgqyXC9UorH9wSO%2F67Kz%2BWnR%2Bo%2B%2BqBBXOmRpGqTdFrNjX5Rd3%2B5Ow6C61HEk5YapE%3D"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 6c14c0f02d7ffed6-IAH
+      Alt-Svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
+        ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: '{"categories":["money"],"created_at":"2020-01-05 13:42:23.484083","icon_url":"https://assets.chucknorris.host/img/avatar/chuck-norris.png","id":"3sw5A0AMRlOgPfZdtTM3wg","updated_at":"2020-05-22
+        06:16:41.133769","url":"https://api.chucknorris.io/jokes/3sw5A0AMRlOgPfZdtTM3wg","value":"There
+        was no \"Great deppresion\". Just a time when Chuck Norris didn''t have money."}'
+  recorded_at: Tue, 21 Dec 2021 23:05:10 GMT
+- request:
+    method: get
+    uri: https://api.chucknorris.io/jokes/random?category=movie
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - api.chucknorris.io
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 21 Dec 2021 23:05:10 GMT
+      Content-Type:
+      - application/json;charset=UTF-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Via:
+      - 1.1 vegur
+      Cf-Cache-Status:
+      - DYNAMIC
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=fS%2BZ%2FbJpzrFbCQw%2FABQ9Ayfn4nzqTH5lniCuCm97MlnE8eIXsYRn435AE6CjUiKfu8wcHlGc%2Fq5xm%2BISVlq4Qat84S4IawF6GUOkzvLXyVnqCToZQazMKkE0ShiYKk15LLY8Qts%3D"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 6c14c0f28a2afeae-IAH
+      Alt-Svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
+        ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: '{"categories":["movie"],"created_at":"2020-01-05 13:42:19.324003","icon_url":"https://assets.chucknorris.host/img/avatar/chuck-norris.png","id":"hy1jtzj8svq3mpr6pv6lfg","updated_at":"2020-01-05
+        13:42:19.324003","url":"https://api.chucknorris.io/jokes/hy1jtzj8svq3mpr6pv6lfg","value":"Godzilla
+        is a Japanese rendition of Chuck Norris'' first visit to Tokyo."}'
+  recorded_at: Tue, 21 Dec 2021 23:05:10 GMT
+- request:
+    method: get
+    uri: https://api.chucknorris.io/jokes/random?category=music
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - api.chucknorris.io
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 21 Dec 2021 23:05:11 GMT
+      Content-Type:
+      - application/json;charset=UTF-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Via:
+      - 1.1 vegur
+      Cf-Cache-Status:
+      - DYNAMIC
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=qaLRarzGBG1LNnuvJorOTybTKxBzfKjLuR77g1PZ2RyqQ9Z1k5Ehd%2B551nJ2hZOMLKDkr2fT93v4h30guTB%2BXRKdqJh%2BQUyJLtThAWRPrUApjGBCRzAgj0n11TUlJzU1x6yHlxE%3D"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 6c14c0f4cd1bb3b8-IAH
+      Alt-Svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
+        ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: '{"categories":["music"],"created_at":"2020-01-05 13:42:19.324003","icon_url":"https://assets.chucknorris.host/img/avatar/chuck-norris.png","id":"qxsbf-jeq_act5a4bbwavq","updated_at":"2020-01-05
+        13:42:19.324003","url":"https://api.chucknorris.io/jokes/qxsbf-jeq_act5a4bbwavq","value":"The
+        Drummer for Def Leppard''s only got one arm. Chuck Norris needed a back scratcher."}'
+  recorded_at: Tue, 21 Dec 2021 23:05:11 GMT
+- request:
+    method: get
+    uri: https://api.chucknorris.io/jokes/random?category=political
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - api.chucknorris.io
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 21 Dec 2021 23:05:11 GMT
+      Content-Type:
+      - application/json;charset=UTF-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Via:
+      - 1.1 vegur
+      Cf-Cache-Status:
+      - DYNAMIC
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=ndqL1LwmRHJruNis%2BiMuqG%2F9vGEJzlEtep0XGeYvAmVS1HRx7kFYbOutF3SzpjBdCafeJyeHIGlqqmfjA20%2BtPvnyWrsNlai%2Fw4wjyPRnfcQHqDdC1xiscj%2B1jZRmlE9k%2BBhDoI%3D"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 6c14c0f719c3feea-IAH
+      Alt-Svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
+        ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: '{"categories":["political"],"created_at":"2020-01-05 13:42:29.855523","icon_url":"https://assets.chucknorris.host/img/avatar/chuck-norris.png","id":"w-DO4hGuRBeWRFz2cVoRzQ","updated_at":"2020-01-05
+        13:42:29.855523","url":"https://api.chucknorris.io/jokes/w-DO4hGuRBeWRFz2cVoRzQ","value":"Barack
+        Obama recently stated that he considers it ''a great honour and privilege''
+        to shine Chuck Norris'' shoes every Wednesday."}'
+  recorded_at: Tue, 21 Dec 2021 23:05:11 GMT
+- request:
+    method: get
+    uri: https://api.chucknorris.io/jokes/random?category=religion
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - api.chucknorris.io
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 21 Dec 2021 23:05:12 GMT
+      Content-Type:
+      - application/json;charset=UTF-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Via:
+      - 1.1 vegur
+      Cf-Cache-Status:
+      - DYNAMIC
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=IqZDjOd5B%2Fv0rALuVDvRf%2BicDqkvKMfABylIjm98RRaRl9DehSgBliqdTonn5lpnvu7SQFdMy2Now8BQ4b6O%2BPsCHhixpB81x3AOLjAUozLq3okduITb7UL%2BA3Y%2FnP8dozQfkuA%3D"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 6c14c0f9782efef6-IAH
+      Alt-Svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
+        ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: '{"categories":["religion"],"created_at":"2020-01-05 13:42:19.324003","icon_url":"https://assets.chucknorris.host/img/avatar/chuck-norris.png","id":"defxwux_t-wond-zfhoicq","updated_at":"2020-01-05
+        13:42:19.324003","url":"https://api.chucknorris.io/jokes/defxwux_t-wond-zfhoicq","value":"Chuck
+        Norris doesn''t play god. Playing is for children."}'
+  recorded_at: Tue, 21 Dec 2021 23:05:12 GMT
+- request:
+    method: get
+    uri: https://api.chucknorris.io/jokes/random?category=science
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - api.chucknorris.io
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 21 Dec 2021 23:05:12 GMT
+      Content-Type:
+      - application/json;charset=UTF-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Via:
+      - 1.1 vegur
+      Cf-Cache-Status:
+      - DYNAMIC
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=5qCKzfacHLy%2FagvROWuqK%2B5KPGXxBCXfkpmdu00%2BA3vx0W%2BZD5v%2Bpj5GXuoWXlJPy7VPtxDpuJRgEuzNT85GNS31bJKPUl6tYrDYm08UQ33Be7d0G3PdEVV3mobPVQ44g%2FUfExE%3D"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 6c14c0fbecd6fede-IAH
+      Alt-Svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
+        ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: '{"categories":["science"],"created_at":"2020-01-05 13:42:19.576875","icon_url":"https://assets.chucknorris.host/img/avatar/chuck-norris.png","id":"qszz44pvr3iv7kzgwoedza","updated_at":"2020-01-05
+        13:42:19.576875","url":"https://api.chucknorris.io/jokes/qszz44pvr3iv7kzgwoedza","value":"Chuck
+        Norris can do a roundhouse kick faster than the speed of light. This means
+        that if you turn on a light switch, you will be dead before the lightbulb
+        turns on."}'
+  recorded_at: Tue, 21 Dec 2021 23:05:12 GMT
+- request:
+    method: get
+    uri: https://api.chucknorris.io/jokes/random?category=sport
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - api.chucknorris.io
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 21 Dec 2021 23:05:12 GMT
+      Content-Type:
+      - application/json;charset=UTF-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Via:
+      - 1.1 vegur
+      Cf-Cache-Status:
+      - DYNAMIC
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=bX9BvYLrFmDidaN4wSVdZcxgMqVnJhYGcaJqm%2Ft6scwkvRS%2FPulGuncGpv5e9iFhn7fO7tvskI%2FIzbLimRyuEF80hJivPp%2FeXEb9lgLVTLg2tA37HBt24ekKF%2BCN0T2ehT7aBHU%3D"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 6c14c0fe5fe9fed6-IAH
+      Alt-Svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
+        ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: '{"categories":["sport"],"created_at":"2020-01-05 13:42:19.576875","icon_url":"https://assets.chucknorris.host/img/avatar/chuck-norris.png","id":"bdo-g3sjtowgdeneipfgrg","updated_at":"2020-01-05
+        13:42:19.576875","url":"https://api.chucknorris.io/jokes/bdo-g3sjtowgdeneipfgrg","value":"Chuck
+        Norris qualified with a top speed of 324 mph at the Daytona 500, without a
+        car."}'
+  recorded_at: Tue, 21 Dec 2021 23:05:12 GMT
+- request:
+    method: get
+    uri: https://api.chucknorris.io/jokes/random?category=travel
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - api.chucknorris.io
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 21 Dec 2021 23:05:13 GMT
+      Content-Type:
+      - application/json;charset=UTF-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Via:
+      - 1.1 vegur
+      Cf-Cache-Status:
+      - DYNAMIC
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=mweXY3fBUKZpWTDEPExiTmC4a7y4R8%2B8yyqzS81Xv5gS5NAALCascSaAkyzEH5hC7ftSc48tSxwLNqXWAx3iGooLKa7Kv0aQwBMrcixTn8eYNNbtRK1s0sYGFclJ3EmN5QrdRL0%3D"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 6c14c1009fa9feda-IAH
+      Alt-Svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
+        ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: '{"categories":["travel"],"created_at":"2020-01-05 13:42:19.576875","icon_url":"https://assets.chucknorris.host/img/avatar/chuck-norris.png","id":"8l-mg2v1s-kz1p6uz5mdmg","updated_at":"2020-01-05
+        13:42:19.576875","url":"https://api.chucknorris.io/jokes/8l-mg2v1s-kz1p6uz5mdmg","value":"As
+        an infant, Chuck Norris'' parents gave him a toy hammer. He gave the world
+        Stonehenge."}'
+  recorded_at: Tue, 21 Dec 2021 23:05:13 GMT
+recorded_with: VCR 6.0.0

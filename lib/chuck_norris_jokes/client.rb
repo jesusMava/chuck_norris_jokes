@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 module ChuckNorrisJokes
   class Client
     def initialize(base_url)
@@ -6,7 +8,6 @@ module ChuckNorrisJokes
 
     def get_random_phrase
       uri = URI(base_url)
-      request = Net::HTTP.get(uri)
       res = Net::HTTP.get_response(uri)
       parse_json(res.body)
     end

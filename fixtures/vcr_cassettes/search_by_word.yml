@@ -1,0 +1,71 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.chucknorris.io/jokes/search?query=hello
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - api.chucknorris.io
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 21 Dec 2021 23:09:27 GMT
+      Content-Type:
+      - application/json;charset=UTF-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Via:
+      - 1.1 vegur
+      Cf-Cache-Status:
+      - DYNAMIC
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=2wLRc52L%2FutwNDCP3Mkwl8AnacZxMbPdFIm0e%2Bl6N9%2BX7PqHs0rk7TVpSN4ClB5IEfJ7uIl2esRLX7eqReT9S9M0UuyoDEwx7xc9ki%2FBpxdFnnfTv%2FQYh6PXNCJ5zu94I1GQEUw%3D"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 6c14c73098e2feda-IAH
+      Alt-Svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
+        ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: '{"total":5,"result":[{"categories":[],"created_at":"2020-01-05 13:42:20.841843","icon_url":"https://assets.chucknorris.host/img/avatar/chuck-norris.png","id":"6aqcOwDJQyeMo9FvUCJjow","updated_at":"2020-01-05
+        13:42:20.841843","url":"https://api.chucknorris.io/jokes/6aqcOwDJQyeMo9FvUCJjow","value":"Chuck
+        Norris and his Mom have matching tattoos. Left kuckle Right knuckle Chuck
+        Norris . Left foot Right foot Chuck Norris. Only one difference. Above his
+        Mom''s hairy mat it reads Hello ! Above Chuck Norris''s bearded Ass it simply
+        reads Goodbye."},{"categories":[],"created_at":"2020-01-05 13:42:22.980058","icon_url":"https://assets.chucknorris.host/img/avatar/chuck-norris.png","id":"nlvsVqcOQaWezU6I18SzJQ","updated_at":"2020-01-05
+        13:42:22.980058","url":"https://api.chucknorris.io/jokes/nlvsVqcOQaWezU6I18SzJQ","value":"Hello
+        Kitty has stubby arms because Chuck Norris was feeling hungry."},{"categories":[],"created_at":"2020-01-05
+        13:42:26.194739","icon_url":"https://assets.chucknorris.host/img/avatar/chuck-norris.png","id":"q4kNgA2wQyWKnDj8TVddSQ","updated_at":"2020-01-05
+        13:42:26.194739","url":"https://api.chucknorris.io/jokes/q4kNgA2wQyWKnDj8TVddSQ","value":"Simon
+        & Garfunkel wrote the lyric ''Hello darkness, my old friend'' about the end
+        of several thousand men who saw a Chuck Norris testicle decending to crush
+        their head."},{"categories":[],"created_at":"2020-01-05 13:42:26.991637","icon_url":"https://assets.chucknorris.host/img/avatar/chuck-norris.png","id":"0cyirBrJSay5yYEL1yYw_A","updated_at":"2020-01-05
+        13:42:26.991637","url":"https://api.chucknorris.io/jokes/0cyirBrJSay5yYEL1yYw_A","value":"In
+        the original making of Scarface when Tony said \"say hello to my little friend\"
+        Chuck Norris appeared. However, the director cut it out said it was too gruesome
+        for a R rated movie."},{"categories":[],"created_at":"2020-01-05 13:42:30.480041","icon_url":"https://assets.chucknorris.host/img/avatar/chuck-norris.png","id":"g96iRXO6TPWAgWkrWf_YRQ","updated_at":"2020-01-05
+        13:42:30.480041","url":"https://api.chucknorris.io/jokes/g96iRXO6TPWAgWkrWf_YRQ","value":"once
+        upon a time Chuck Norris seen a mime\"hello\" said chuck the mime didnt answer
+        so he round house kicked him to death."}]}'
+  recorded_at: Tue, 21 Dec 2021 23:09:27 GMT
+recorded_with: VCR 6.0.0

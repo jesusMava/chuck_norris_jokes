@@ -1,0 +1,105 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.chucknorris.io/jokes/random
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - api.chucknorris.io
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 21 Dec 2021 21:35:50 GMT
+      Content-Type:
+      - application/json;charset=UTF-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Via:
+      - 1.1 vegur
+      Cf-Cache-Status:
+      - DYNAMIC
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=cmj%2FL41kj6bGRRz%2BUc79kCIEVSmKSvsAdP%2B1%2B8O02HqNsyN9qBd8JiDI5c697mtJ%2FwAOJAVMk4nA5lv7xWTO%2BxCZHaZzuPje9Lsj%2FXEY8XQangQS0D2RraDT4EBYm9%2FxvEpXaMw%3D"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 6c143e0edfc8b394-IAH
+      Alt-Svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
+        ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: '{"categories":["dev"],"created_at":"2020-01-05 13:42:19.104863","icon_url":"https://assets.chucknorris.host/img/avatar/chuck-norris.png","id":"vhyuanawsl-rpq18bwwgfq","updated_at":"2020-01-05
+        13:42:19.104863","url":"https://api.chucknorris.io/jokes/vhyuanawsl-rpq18bwwgfq","value":"Chuck
+        Norris programs occupy 150% of CPU, even when they are not executing."}'
+  recorded_at: Tue, 21 Dec 2021 21:35:50 GMT
+- request:
+    method: get
+    uri: https://api.chucknorris.io/jokes/random
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - api.chucknorris.io
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 21 Dec 2021 21:35:50 GMT
+      Content-Type:
+      - application/json;charset=UTF-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Via:
+      - 1.1 vegur
+      Cf-Cache-Status:
+      - DYNAMIC
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=CO%2BRI3RcUDz1KFl98XzUrbXLVEjgQxx%2FuQ0%2BDdRpPf%2F6p%2FcJ7lxx5bKZZRoOByhVA8ffmQz%2By%2FC7ublfRmhvgo%2B%2F7TkkVRFNuS3Y1GnxauymVkPheRAQ%2FNHhaPovVYewm17Ek8c%3D"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 6c143e141beeb3c4-IAH
+      Alt-Svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
+        ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: '{"categories":[],"created_at":"2020-01-05 13:42:28.984661","icon_url":"https://assets.chucknorris.host/img/avatar/chuck-norris.png","id":"r6wIRDCpQ0SCPA2GhL0oIQ","updated_at":"2020-01-05
+        13:42:28.984661","url":"https://api.chucknorris.io/jokes/r6wIRDCpQ0SCPA2GhL0oIQ","value":"Chuck
+        Norris Sleeps On The Cieling"}'
+  recorded_at: Tue, 21 Dec 2021 21:35:50 GMT
+recorded_with: VCR 6.0.0

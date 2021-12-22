@@ -1,23 +1,23 @@
+# frozen_string_literal: true
+
 module ChuckNorrisJokes
   class Endpoint
-    CATEGORIES = ["animal","career","celebrity","dev","explicit","fashion",
-                  "food","history","money","movie","music","political",
-                  "religion","science","sport","travel"].freeze
+    CATEGORIES = %w[animal career celebrity dev explicit fashion
+                    food history money movie music political
+                    religion science sport travel].freeze
 
     def initialize
-      @client = Client.new('https://api.chucknorris.io/jokes/random?category=')
+      @client = Client.new("https://api.chucknorris.io/jokes/random?category=")
     end
 
     def all_categories
+      res = []
       CATEGORIES.map do |category|
         Thread.new do
-          client.get_by_categories(category)[:value]
-        end
+          res << client.get_by_categories(category)[:value]
+        end.join
       end
-    end
-    
-    def get_values_by_category
-      all_categories.map(&:join)
+      res
     end
 
     private

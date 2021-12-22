@@ -1,7 +1,9 @@
+# frozen_string_literal: true
+
 module ChuckNorrisJokes
   class Search
     def initialize
-      @query = Client.new('https://api.chucknorris.io/jokes/search?query=')
+      @query = Client.new("https://api.chucknorris.io/jokes/search?query=")
     end
 
     def search_by_query(phrase)
