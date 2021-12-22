@@ -22,7 +22,13 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+This is a basic gem with the principals funciton of chuck norris api:
+
+* `ChuckNorrisJokes.get_random_phrase` : get a random joke.
+* `ChuckNorrisJokes.get_all_categories` : get  all the categories using threads.
+* `ChuckNorrisJokes.dev_joke` : if you want to know some jokes about devs can try it.
+* `ChuckNorrisJokes.search_by_word(arg)` : search by a phrase
+
 
 ## Development
 
